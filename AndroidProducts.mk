@@ -5,10 +5,10 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/octavi_phoenix.mk
+    $(LOCAL_DIR)/aosp_phoenix.mk
 
 COMMON_LUNCH_CHOICES := \
-    octavi_phoenix-user \
-    octavi_phoenix-userdebug \
-    octavi_phoenix-eng
+    aosp_phoenix-user \
+    aosp_phoenix-userdebug \
+    aosp_phoenix-eng
 
