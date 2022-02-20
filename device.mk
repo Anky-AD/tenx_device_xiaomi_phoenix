@@ -364,6 +364,10 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/com.nxp.mifare.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/sku_phoenix/com.nxp.mifare.xml
 
 # Overlays
+DEVICE_PACKAGE_OVERLAYS += \
+    $(LOCAL_PATH)/overlay-xdroid
+
+# Overlays
 PRODUCT_PACKAGES += \
     CarrierConfigOverlayPhoenix \
     DialerOverlayPhoenix \

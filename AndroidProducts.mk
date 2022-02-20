@@ -5,4 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/arrow_phoenix.mk
+    $(LOCAL_DIR)/xdroid_phoenix.mk
+
+COMMON_LUNCH_CHOICES := \
+    xdroid_phoenix-user \
+    xdroid_phoenix-userdebug \
+    xdroid_phoenix-eng
